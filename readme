@@ -1,1 +1,121 @@
-1. Para rodar abrir terminar e executar node app.js
+# Gerenciador de Tarefas via CLI
+
+Um aplicativo de linha de comando simples, mas poderoso, para gerenciar suas tarefas diárias, desenvolvido em Node.js.
+
+## 📋 Índice
+
+- [Visão Geral](#visão-geral)
+- [Funcionalidades](#funcionalidades)
+- [Requisitos](#requisitos)
+- [Instalação](#instalação)
+- [Como Usar](#como-usar)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Tecnologias](#tecnologias)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
+
+## 🔍 Visão Geral
+
+Este gerenciador de tarefas via linha de comando permite que você organize suas atividades diárias de maneira eficiente. Adicione, edite, remova e filtre tarefas facilmente, com suporte a prioridades e prazos.
+
+## ✨ Funcionalidades
+
+- 📝 **Adicionar tarefas** com descrição, prioridade e prazo opcional
+- 📋 **Listar tarefas** pendentes e concluídas
+- 🗑️ **Remover tarefas** individualmente
+- ✅ **Marcar tarefas como concluídas**
+- 🔍 **Filtrar tarefas** por palavras-chave
+- 🧹 **Remover todas as tarefas concluídas** de uma vez
+- 🎯 **Sugestão inteligente** da próxima tarefa baseada em prioridade
+- ✏️ **Editar tarefas** existentes
+- 💾 **Backup automático** dos seus dados
+
+## 📋 Requisitos
+
+- Node.js (versão 12 ou superior)
+
+## 🚀 Instalação
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/gerenciador-tarefas-cli.git
+cd gerenciador-tarefas-cli
+```
+
+2. Crie a pasta de dados:
+```bash
+mkdir data
+```
+
+3. Execute o aplicativo:
+```bash
+node app.js
+```
+
+## 📝 Como Usar
+
+Ao iniciar o aplicativo, você verá um menu com as seguintes opções:
+
+```
+=== GERENCIADOR DE TAREFAS ===
+1. Adicionar tarefa
+2. Listar tarefas
+3. Remover tarefa
+4. Marcar como concluída
+5. Filtrar tarefas
+6. Remover todas as concluídas
+7. Sugerir próxima tarefa
+8. Editar tarefa
+9. Sair
+```
+
+### Exemplos de uso:
+
+#### Adicionar uma tarefa
+Selecione a opção 1 e siga as instruções para adicionar descrição, prioridade (alta, média, baixa) e, opcionalmente, um prazo.
+
+#### Listar tarefas
+Selecione a opção 2 para ver todas as tarefas organizadas entre pendentes e concluídas.
+
+#### Marcar como concluída
+Selecione a opção 4 e informe o ID da tarefa que deseja marcar como concluída.
+
+#### Sugerir próxima tarefa
+Selecione a opção 7 para que o sistema recomende qual tarefa você deve priorizar com base na configuração de prioridade.
+
+## 📁 Estrutura do Projeto
+
+```
+gerenciador-tarefas-cli/
+│
+├── app.js           # Ponto de entrada e interface do usuário
+├── tasks.js         # Lógica de gerenciamento das tarefas
+├── data/            # Diretório onde as tarefas são armazenadas
+│   └── tasks.json   # Arquivo JSON com as tarefas
+└── README.md        # Este arquivo
+```
+
+## 💻 Tecnologias
+
+- **Node.js** - Ambiente de execução JavaScript
+- **readline** - Módulo para interface de linha de comando
+- **fs** - Módulo para manipulação de arquivos
+- **path** - Módulo para manipulação de caminhos de arquivos
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Para contribuir:
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
+3. Faça commit das suas alterações (`git commit -m 'Adiciona nova funcionalidade'`)
+4. Faça push para a branch (`git push origin feature/nova-funcionalidade`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+
+---
+
+Desenvolvido com ❤️ por [Pedro Sousa de Aragão Neto]

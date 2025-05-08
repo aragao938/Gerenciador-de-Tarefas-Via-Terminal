@@ -38,7 +38,7 @@ Este gerenciador de tarefas via linha de comando permite que você organize suas
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/gerenciador-tarefas-cli.git
+git clone https://github.com/aragao938/Gerenciador-de-Tarefas-Via-Terminal.git
 cd gerenciador-tarefas-cli
 ```
 
